@@ -1,0 +1,235 @@
+body {
+    overflow: hidden;
+}
+
+#angkaawal{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+#box-login {
+    width: 1200px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-login-sub {
+    width: 300px;
+    height: 300px;
+    background: #ddd;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+#box-login-sub form input {
+    width: 100%;
+    text-align: center;
+    height: 45px;
+}
+
+#container-flex { 
+    width: 1000px;
+    height: 500px;
+    /* background: grey; */
+    margin: auto;
+}
+
+#container-flex-start {
+    width: 1000px;
+    height: 500px;
+    /* background: black; */
+    margin: auto;
+}
+
+
+.container-flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-row {
+    flex: 50%;
+    background: gold;
+    padding: 10px;
+    display: flex;
+}
+
+.container-row-start {
+    flex: 50%;
+    /* background: gold; */
+    padding: 10px;
+    text-align: center;
+}
+
+
+#container-row-two {
+    flex: 50%;
+    background: brown;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-row-two-sub {
+    flex: 50%;
+    background: brown;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-row-sub {
+    flex: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+.gambar {
+    width: 270px;
+    height: 200px;
+    background: white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#black {
+    width: 100%;
+    height: 699px;
+    background: black;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+}
+
+#box-result {
+    width: 1200px;
+    height: 500px;
+    /* background: brown; */
+    margin: 0 auto;
+    position: relative;
+    bottom: 500px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-kotak-result{ 
+    width: 350px;
+    height: 370px;
+    background: white;
+}
+
+.row-flex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-row {
+    flex: 50%;
+    padding: 10px;
+    /* background: gold;
+    border: 1px solid black; */
+}
+
+.row-row-first {
+    flex: 50%;
+    /* background: gold;
+    border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row-row-first button{
+    border: none;
+    background: none;
+}
+
+.row-row-pict{
+    flex: 50%;
+    background: gold;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.row-row-pict img {
+    width: 100px;
+    height: 100px;
+}
+
+.row-pict-flex {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.row-pict-row {
+    flex: 50%;
+    padding: 2px;
+    /* background: brown; */
+}
+
+.row-pict-row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-pict-row-flex-row {
+    flex: 30%;
+    padding: 2px;
+    /* background: gold; */
+}
+
+.row-pict-row-flex-row-sub {
+    flex: 15%;
+    padding: 2px;
+    /* background: white; */
+}
+
+.row-pict-row-flex-row-sub h1 {
+    margin-left: 15px;
+}
+
+.row-pict-text-flex {
+    width: 100%;
+    height: auto;
+}
+
+.row-pict-text-flex-real {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-pict-text-flex-row {
+    flex: 50%;
+    padding: 5px;
+}
+
+.row-pict-text-flex-row h6 {
+    margin-left: 50px;
+}
+
+.row-last-flex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-last-row {
+    flex: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+.cetak-poin-box {
+    display: flex;
+}
